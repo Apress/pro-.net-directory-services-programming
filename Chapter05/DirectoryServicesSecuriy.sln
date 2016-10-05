@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryServicesSecuriy", "DirectoryServicesSecuriy.csproj", "{8598FE46-377B-42B7-814B-0D0900BDC0E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "..\test\test.csproj", "{D3C44386-B9E5-4244-A097-83A7F6F596B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8598FE46-377B-42B7-814B-0D0900BDC0E1}.Debug.ActiveCfg = Debug|.NET
+		{8598FE46-377B-42B7-814B-0D0900BDC0E1}.Debug.Build.0 = Debug|.NET
+		{8598FE46-377B-42B7-814B-0D0900BDC0E1}.Release.ActiveCfg = Release|.NET
+		{8598FE46-377B-42B7-814B-0D0900BDC0E1}.Release.Build.0 = Release|.NET
+		{D3C44386-B9E5-4244-A097-83A7F6F596B0}.Debug.ActiveCfg = Debug|.NET
+		{D3C44386-B9E5-4244-A097-83A7F6F596B0}.Debug.Build.0 = Debug|.NET
+		{D3C44386-B9E5-4244-A097-83A7F6F596B0}.Release.ActiveCfg = Release|.NET
+		{D3C44386-B9E5-4244-A097-83A7F6F596B0}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

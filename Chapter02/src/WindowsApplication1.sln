@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsApplication1", "WindowsApplication1.csproj", "{DB5B0B48-31B6-49A4-AE9B-88D551498E71}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8598FE46-377B-42B7-814B-0D0900BDC0E1} = {8598FE46-377B-42B7-814B-0D0900BDC0E1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryServicesSecuriy", "..\..\DirectoryServicesSecuriy\DirectoryServicesSecuriy.csproj", "{8598FE46-377B-42B7-814B-0D0900BDC0E1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DB5B0B48-31B6-49A4-AE9B-88D551498E71}.Debug.ActiveCfg = Debug|.NET
+		{DB5B0B48-31B6-49A4-AE9B-88D551498E71}.Debug.Build.0 = Debug|.NET
+		{DB5B0B48-31B6-49A4-AE9B-88D551498E71}.Release.ActiveCfg = Release|.NET
+		{DB5B0B48-31B6-49A4-AE9B-88D551498E71}.Release.Build.0 = Release|.NET
+		{8598FE46-377B-42B7-814B-0D0900BDC0E1}.Debug.ActiveCfg = Debug|.NET
+		{8598FE46-377B-42B7-814B-0D0900BDC0E1}.Debug.Build.0 = Debug|.NET
+		{8598FE46-377B-42B7-814B-0D0900BDC0E1}.Release.ActiveCfg = Release|.NET
+		{8598FE46-377B-42B7-814B-0D0900BDC0E1}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

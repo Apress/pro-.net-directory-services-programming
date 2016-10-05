@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SCPPublishing", "SCPPublishing.vbproj", "{6D1FFA45-3CB5-4692-B949-C594B1BB7091}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6D1FFA45-3CB5-4692-B949-C594B1BB7091}.Debug.ActiveCfg = Debug|.NET
+		{6D1FFA45-3CB5-4692-B949-C594B1BB7091}.Debug.Build.0 = Debug|.NET
+		{6D1FFA45-3CB5-4692-B949-C594B1BB7091}.Release.ActiveCfg = Release|.NET
+		{6D1FFA45-3CB5-4692-B949-C594B1BB7091}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

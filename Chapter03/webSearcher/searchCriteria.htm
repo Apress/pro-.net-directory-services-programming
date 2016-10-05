@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<TITLE>Remote AD Searcher</TITLE>
+		<META content="Microsoft Visual Studio 7.0" name="GENERATOR">
+		<script language="javascript">
+<!--
+	function showCustomBox()
+	{	
+		if (F1.Select1.options(F1.Select1.selectedIndex).value=="Custom")
+			{	
+				F1.txtFilter.value=""
+				F1.txtFilter.focus(); 
+			}
+		else			
+			{	
+				switch (F1.Select1.options(F1.Select1.selectedIndex).value)
+				{
+					case "user" :
+									F1.txtFilter.value="(objectclass=user)"					
+									break;
+					case "printQueue" :
+									F1.txtFilter.value="(objectclass=printQueue)";
+									break;
+					case "volume" :
+									F1.txtFilter.value="(objectclass=volume)";
+									break;					
+					case "organizationalUnit" :
+									F1.txtFilter.value="(objectclass=organizationalUnit)";
+									break;
+					case "computer" :
+									F1.txtFilter.value="(objectclass=computer)";
+									break;
+				}				
+			}
+	}
+//-->
+		</script>
+		<script language="javascript" id="clientEventHandlersJS">
+<!--
+
+function window_onload() {
+	F1.Select1.selectedIndex=0;  
+	F1.txtFilter.value="(objectclass=user)"
+	
+	F1.Checkbox1.checked =false;
+	F1.Text3.value=""
+	F1.Text4.value=""
+	F1.Text3.disabled=true  ;
+	F1.Text4.disabled=true;			
+}
+
+function Checkbox1_onclick() {
+	if (F1.Checkbox1.checked)
+	{		
+		F1.Text3.disabled=false;
+		F1.Text4.disabled=false;
+		F1.Text3.focus ();
+	}
+	else
+	{
+		F1.Text3.value=""
+		F1.Text4.value=""
+		F1.Text3.disabled=true  ;
+		F1.Text4.disabled=true;			
+	}
+		
+}
+
+//-->
+		</script>
+	</HEAD>
+	<BODY onload="return window_onload()">
+		<form id="F1" action="adSearchResult.aspx" method="post">
+			<table height="166" align="left" bgColor="#f4f5fb" border="1">
+				<P></P>
+				<P align="center"><FONT face="Verdana" color="#ff9966" size="6"></P>
+				<P align="center">Remote AD Searcher</FONT>
+					<TBODY>
+						<tr>
+							<td align="right" width="119"><FONT color="#663399"><STRONG>AdsPath:</STRONG></FONT></td>
+							<td><INPUT id="Text1" type="text" size="64" value="LDAP://apress" name="adsPath"></td>
+						</tr>
+						<tr>
+							<td align="right" width="119"><FONT color="#660099"><STRONG>Filter :</STRONG></FONT></td>
+							<td><SELECT id="Select1" onchange="showCustomBox()" name="Select1">
+									<OPTION value="user" selected>
+									Users<OPTION value="printQueue">
+									Printers<OPTION value="volume">
+									Shared Folders<OPTION value="organizationalUnit">
+									Organizational Units<OPTION value="computer">
+									Computers<OPTION value="Custom">Custom</OPTION>
+								</SELECT>
+								<INPUT id="txtFilter" type="text" size="38" name="txtFilter">
+							</td>
+						</tr>
+						<tr>
+							<td align="right" width="119"><FONT color="#660099"><STRONG>Authentication :</STRONG></FONT></td>
+							<td width="255"><INPUT id="Checkbox1" type="checkbox" name="Checkbox1" onclick="return Checkbox1_onclick()"></td>
+						</tr>
+						<tr>
+							<td align="right" width="119"><STRONG><FONT color="#660099">User ID :</FONT></STRONG></td>
+							<td><INPUT id="Text3" type="text" name="UID"></td>
+						</tr>
+						<tr>
+							<td align="right" width="119"><STRONG><FONT color="#660099">Password :</FONT></STRONG></td>
+							<td><INPUT id="Text4" type="password" name="PWD"></td>
+						</tr>
+						<tr>
+							<td width="120"><INPUT id="Submit1" type="submit" value="Submit" name="Submit1"></td>
+						</tr></P>
+			</table>
+		</form>
+	</BODY>
+</HTML>

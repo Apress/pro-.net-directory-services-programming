@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<AccessMask id="ADS_RIGHT_DS_CREATE_CHILD" friendly_name="Delete Child" />
+	<AccessMask id="ADS_RIGHT_DS_DELETE_CHILD" friendly_name="Delete Child Objects" />
+	<AccessMask id="ADS_RIGHT_ACTRL_DS_LIST" friendly_name="List Child Objects" />
+	<AccessMask id="ADS_RIGHT_DS_SELF" friendly_name="Self" />
+	<AccessMask id="ADS_RIGHT_DS_READ_PROP" friendly_name="Read Properties" />
+	<AccessMask id="ADS_RIGHT_DS_WRITE_PROP" friendly_name="Write Properties" />
+	<AccessMask id="ADS_RIGHT_DS_DELETE_TREE" friendly_name="Delete Tree" />
+	<AccessMask id="ADS_RIGHT_DS_LIST_OBJECT" friendly_name="List Objects" />
+	<AccessMask id="ADS_RIGHT_DS_CONTROL_ACCESS" friendly_name="Read Permission" />
+	<AccessMask id="ADS_RIGHT_DELETE" friendly_name="Delete" />
+	<AccessMask id="ADS_RIGHT_READ_CONTROL" friendly_name="All Extended Rights" />
+	<AccessMask id="ADS_RIGHT_WRITE_DAC" friendly_name="Modify Permissions" />
+	<AccessMask id="ADS_RIGHT_WRITE_OWNER" friendly_name="Modify Owner" />
+	<AccessMask id="ADS_RIGHT_SYNCHRONIZE" friendly_name="Syncronize" />
+	<AccessMask id="ADS_RIGHT_ACCESS_SYSTEM_SECURITY" friendly_name="ddd" />
+	<AccessMask id="ADS_RIGHT_GENERIC_ALL" friendly_name="Read, Write" />
+	<AccessMask id="ADS_RIGHT_GENERIC_EXECUTE" friendly_name="Execute" />
+	<AccessMask id="ADS_RIGHT_GENERIC_WRITE" friendly_name="Write" />
+	<AccessMask id="ADS_RIGHT_GENERIC_READ" v="Read" />
+</root>
